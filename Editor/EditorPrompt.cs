@@ -55,7 +55,7 @@ namespace JD.Prompt
             
             EditorGUILayout.BeginVertical();
 
-            EditorGUILayout.Space(12);
+            EditorGUILayout.Space(10);
             EditorGUILayout.LabelField(_description);
 
             EditorGUILayout.Space(8);
@@ -82,7 +82,7 @@ namespace JD.Prompt
                 _shouldClose = true;
             }
 
-            EditorGUILayout.Space(8);
+            EditorGUILayout.Space(11);
             EditorGUILayout.EndVertical();
 
             EditorGUILayout.Space(0);

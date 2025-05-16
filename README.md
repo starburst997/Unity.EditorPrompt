@@ -22,7 +22,7 @@ Add the dependency to your `manifest.json`
 var name = EditorPrompt.Show("New Biome", "Please enter name for the new Biome", "");
 ```
 
-*(it's supoer annoying but there wasn't any obvious way to add a small right padding to the X close button on the modal, this seems like a Unity bug...)*
+*(it's super annoying but there wasn't any obvious way to add a small right padding to the X close button on the modal, this seems like a Unity bug...)*
 
 ## Credits
 

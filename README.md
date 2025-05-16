@@ -22,6 +22,8 @@ Add the dependency to your `manifest.json`
 var name = EditorPrompt.Show("New Biome", "Please enter name for the new Biome", "");
 ```
 
+*(it's supoer annoying but there wasn't any obvious way to add a small right padding to the X close button on the modal, this seems like a Unity bug...)*
+
 ## Credits
 
 Originally from [Vedran_M](https://discussions.unity.com/u/Vedran_M) on [Unity Forum](https://discussions.unity.com/t/is-there-a-way-to-input-text-using-a-unity-editor-utility/666472/9)

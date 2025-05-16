@@ -50,15 +50,20 @@ namespace JD.Prompt
             }
 
             // Draw our control
-            var rect = EditorGUILayout.BeginVertical();
+            var rect = EditorGUILayout.BeginHorizontal();
+            EditorGUILayout.Space(0);
+            
+            EditorGUILayout.BeginVertical();
 
             EditorGUILayout.Space(12);
             EditorGUILayout.LabelField(_description);
 
             EditorGUILayout.Space(8);
+
             GUI.SetNextControlName("inText");
             _inputText = EditorGUILayout.TextField("", _inputText);
             GUI.FocusControl("inText"); // Focus text field
+            
             EditorGUILayout.Space(12);
 
             // Draw OK / Cancel buttons
@@ -80,6 +85,9 @@ namespace JD.Prompt
             EditorGUILayout.Space(8);
             EditorGUILayout.EndVertical();
 
+            EditorGUILayout.Space(0);
+            EditorGUILayout.EndHorizontal();
+            
             // Force change size of the window
             if (rect.width != 0 && minSize != rect.size)
             {

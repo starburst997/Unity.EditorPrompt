@@ -1,0 +1,17 @@
+{
+  "name": "jd.boiv.in.prompt",
+  "version": "1.0.0",
+  "displayName": "Editor Prompt",
+  "description": "Prompt the user for a string in Unity Editor",
+  "dependencies": {
+    
+ },
+ "keywords": [
+    "input", "editor", "prompt"
+  ],
+  "author": {
+    "name": "Jean-Denis Boivin",
+    "email": "jd@boiv.in",
+    "url": "https://jd.boiv.in"
+  }
+}
